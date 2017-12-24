@@ -1,7 +1,5 @@
 package com.miyazono.demo.service;
 
-import android.support.annotation.Nullable;
-
 import com.miyazono.demo.tools.StreamTools;
 
 import org.json.JSONObject;
@@ -16,7 +14,8 @@ import java.net.URL;
  */
 
 public class LoginService {
-    @Nullable
+//    @Nullable
+    //更改这里
     public static String LoginByPost(String username, String password){
         try{
             //json对象
